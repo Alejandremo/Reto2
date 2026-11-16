@@ -46,8 +46,6 @@ public static void main(String[] args) {
 		        }
 		    } while (opcion != 0 && opcion != 1 && opcion != 2);
 		 
-		 sc.close();
-		 
 		}
 	public static void menuVolumen() {
 		Scanner sc = new Scanner(System.in);
@@ -85,8 +83,6 @@ public static void main(String[] args) {
 	                break;
 	        }
 	    } while (opcion != 0 && opcion != 1 && opcion != 2);
-		
-		sc.close();
 	}
 }
 
